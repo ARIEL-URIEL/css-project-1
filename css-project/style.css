@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto-Light', sans-serif;
+    
+}
+
+/*HEADER*/
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0px;
+    background-color: #52BAC5;
+    height: 60px;
+}
+
+ul{
+    display:flex;
+    justify-content: space-around;
+}
+
+li{
+    margin: 20px 40px;
+}
+
+#header-ul>li{
+    list-style-type: none;
+}
+
+#header-ul:first-child{
+    margin-left: 250px;
+}
+
+i{
+    margin-left: -20px;
+}
+
+#header-ul > li > a{
+    text-decoration: none;
+    color:white;
+}
+
+.second-div1 img{
+    width:299px;
+    height: 180px;
+    margin-top: 20px;
+}
+
+/* .second-div1{
+    background-image: url(images/download5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+} */
+
+
+/*SECTION ONE*/
+#section-one{
+    display:flex;
+    justify-content: space-around;
+    background-color: #E9EBEC;
+    width: 100%;
+    height: 250px;
+}
+
+.first-div1 > h1{
+    margin-top: 50px;
+    color: #52BAC5;
+}
+
+.first-div1 p{
+    width: 350px;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.first-div1 button{
+    width: 100px;
+    height: 50px;
+    background-color: #52BAC5;;
+}
+
+.signup{
+    font-size: small;
+    text-decoration: none;
+}
+
+#accommodation > figcaption{
+    padding-left:40px;
+    padding-top: 20px;
+}
+
+/*SECTION TWO*/
+.second-div2{
+    background-color: #BABAB8;
+    width: 100%;
+    height: 350px;
+}
+
+.image1{
+    width: 236px;
+    height: 150px;
+    margin-top: 90px;
+}
+
+.image2{
+    width: 303px;
+    height: 150px;
+    margin-top: 90px;
+}
+
+.image3{
+    width: 200px;
+    height: 150px;
+    margin-top: 90px;
+}
+
+.image4{
+    width: 250px;
+    height: 150px;
+    margin-top: 90px;
+}
+
+.second-div2 > picture{
+    display: flex;
+}
+
+.second-div2 > picture > figcaption > strong{
+    
+    color:#550214;
+}
+
+.second-div2 > p{
+    width: 30%;
+    height: 10px;
+    text-align: center;
+    margin:auto;
+    padding-top: 20px;
+    color:#550214;
+}
+
+/*SECTION THREE*/
+#section-three{
+    width:100%;
+    height: 500px;
+    background-color: #CDADA0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#section-three > div > img{
+    margin-top: 50px;
+}
+
+#section-three > div > p{
+    width:200px;
+    height: 50px;
+    padding-top: 10px;
+    text-align: justify;
+    color:black;
+}
+
+/*FOOTER*/
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #52BAC5;
+    Width:100%;
+    height: 250px;
+}
+
+footer > div > h1{
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+footer > div > p{
+    color:#550214;
+}
+
+footer > div > a > i{
+    padding:20px;
+    color:#550214;
+}
